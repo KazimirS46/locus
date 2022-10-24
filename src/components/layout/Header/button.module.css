@@ -1,0 +1,6 @@
+.button {
+  composes: button from './../../../index.css';
+  padding-left: 87px;
+  padding-right: 87px;
+  font-weight: 500;
+}

@@ -58,7 +58,48 @@ body {
   background-color: #ffffff;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #404242;
+}
+
+a:visited {
+  color: #404242;
+}
+
 .wrapper {
   max-width: 1612px;
   margin: 0 auto;
+  padding-top: 85px;
+}
+
+.button {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+  background-color: #58a9a5;
+  border-radius: 20px 20px 20px 0px;
+  transition: all 0.3s;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #468683;
+  border-radius: 20px;
+}
+
+.button:active {
+  filter: drop-shadow(0 0 2px #417c79);
+}
+
+.button:visited {
+  color: #ffffff;
 }

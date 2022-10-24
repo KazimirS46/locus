@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './index.module.css';
 
 import logoSvg from '../../../assets/images/Locus-logo-min.svg';
+import Button from './Button';
 
 function Header() {
   return (
@@ -16,26 +17,26 @@ function Header() {
           <ul className={styles.navList}>
             <li className={styles.navItem}>
               <a href="#header" className={styles.navLink}>
-                Home
+                <span>Home</span>
               </a>
             </li>
             <li className={styles.navItem}>
               <a href="#header" className={styles.navLink}>
-                Contact
+                <span>Contact</span>
               </a>
             </li>
             <li className={styles.navItem}>
               <a href="#header" className={styles.navLink}>
-                Location
+                <span>Location</span>
               </a>
             </li>
             <li className={styles.navItem}>
               <a href="#header" className={styles.navLink}>
-                About Us
+                <span>About Us</span>
               </a>
             </li>
           </ul>
-          <button className="button nav-button"></button>
+          <Button title="Sign Up" />
         </nav>
       </div>
     </header>
