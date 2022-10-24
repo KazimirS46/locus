@@ -1,0 +1,41 @@
+.wrapper {
+  composes: wrapper from './../../../index.css';
+}
+
+.hero {
+  padding-top: 20px;
+}
+
+.Content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoContent {
+  max-width: 743px;
+}
+
+.title {
+  margin-top: 48px;
+  margin-bottom: 50px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #1c2323;
+}
+
+.description {
+  margin-bottom: 50px;
+  max-width: 736px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #404242;
+}
+
+.img {
+  position: relative;
+  right: -36px;
+  width: 100%;
+  height: auto;
+}

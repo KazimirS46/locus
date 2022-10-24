@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './index.module.css';
+import Button from './../Button';
 
 import logoSvg from '../../../assets/images/Locus-logo-min.svg';
-import Button from './Button';
 
 function Header() {
   return (

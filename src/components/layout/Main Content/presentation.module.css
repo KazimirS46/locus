@@ -1,0 +1,100 @@
+.presentation {
+  padding-top: 35px;
+  padding-bottom: 65px;
+}
+
+.wrapper {
+  composes: wrapper from './../../../index.css';
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #1c2323;
+}
+
+.description {
+  margin: 0;
+  margin-bottom: 71px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #404242;
+}
+
+.video {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(./../../../assets/images/png/presentation-image.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-color: #ccf0e6;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 70px;
+  width: 409px;
+}
+
+.annotation {
+  margin: 0 auto;
+  max-width: 328px;
+}
+
+.annotationText {
+  margin: 0;
+  margin-bottom: 41px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
+}
+
+.videoContainer {
+  position: relative;
+  text-align: left;
+}
+
+.button {
+  position: absolute;
+  top: -34px;
+  left: -162px;
+  width: 100px;
+  height: 100px;
+  outline: 14px solid rgba(255, 255, 255, 0.4);
+  border: none;
+  border-radius: 50%;
+  background: #fff url(./../../../assets/images/Play-button.svg) 57% center
+    no-repeat;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.buttonName {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
+  transition: all 0.3s ease-in;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.button:hover + .buttonName {
+  color: #3d5a4b;
+  filter: drop-shadow(0 0 1px #3d5a4b);
+}
+
+.button:active {
+  background-color: rgba(255, 255, 255, 0.6);
+}
