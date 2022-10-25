@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './presentation.module.css';
 
+import exampleImage from './../../../assets/images/png/example-image.png';
+
 function Presentation() {
   return (
     <section className={styles.presentation}>
@@ -23,6 +25,25 @@ function Presentation() {
                 </label>
               </div>
             </div>
+          </div>
+        </div>
+        <div className={styles.advantage}>
+          <img
+            className={styles.exampleImage}
+            src={exampleImage}
+            alt="example"
+            width="642px"
+            height="650px"
+          />
+          <div>
+            <h3 className={styles.subtitle}>
+              Our mission is to deliver aesthetic visual for your home
+            </h3>
+            <p className={styles.advantageText}>
+              By applying bacis psychology principles, we are going to explain
+              how perception works and how we can use this understanding to
+              maximise the space that we occupy in our homes.
+            </p>
           </div>
         </div>
       </div>

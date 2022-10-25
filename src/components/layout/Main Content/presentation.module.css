@@ -1,6 +1,5 @@
 .presentation {
   padding-top: 35px;
-  padding-bottom: 65px;
 }
 
 .wrapper {
@@ -29,6 +28,7 @@
 .video {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 150px;
   background-image: url(./../../../assets/images/png/presentation-image.png);
   background-position: top left;
   background-repeat: no-repeat;
@@ -97,4 +97,32 @@
 
 .button:active {
   background-color: rgba(255, 255, 255, 0.6);
+}
+
+.advantage {
+  display: flex;
+  text-align: left;
+}
+
+.exampleImage {
+  margin-right: 142px;
+}
+
+.subtitle {
+  margin: 0;
+  margin-bottom: 50px;
+  max-width: 487px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #1c2323;
+}
+
+.advantageText {
+  margin: 0;
+  max-width: 708px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #486958;
 }
