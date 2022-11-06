@@ -49,6 +49,7 @@
 body {
   margin: 0;
   padding: 0;
+  padding-bottom: 334px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -104,4 +105,32 @@ a:visited {
 
 .button:visited {
   color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 50px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #1c2323;
+}
+
+.description {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 736px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  color: #404242;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #486958;
 }

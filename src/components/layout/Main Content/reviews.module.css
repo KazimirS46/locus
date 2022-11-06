@@ -1,0 +1,105 @@
+p {
+  margin: 0;
+}
+
+.review,
+.review blockquote,
+.review figcaption {
+  margin: 0;
+}
+
+.reviews {
+  padding-bottom: 240px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 22px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  color: #1c2323;
+}
+
+.review {
+  position: relative;
+  z-index: 1;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-bottom: 62px;
+  align-items: center;
+}
+
+.reviewsContent {
+  display: flex;
+  background-color: #ccf0e6;
+}
+
+.photo {
+  display: block;
+}
+
+.reviewsContainer {
+  padding: 50px;
+  padding-left: 135px;
+  text-align: left;
+}
+
+.companyInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 123px;
+}
+
+.companyInfo {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #58a9a5;
+}
+
+.companyInfo li span {
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 90px;
+}
+
+.numberOfProjects,
+.workingHours {
+  margin-right: 117px;
+}
+
+.review blockquote,
+.review figcaption {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #486958;
+}
+
+.review blockquote {
+  margin-bottom: 38px;
+}
+
+.review figcaption {
+  font-style: italic;
+  color: #58a9a5;
+}
+
+.review::before {
+  content: '';
+  position: absolute;
+  top: -75px;
+  left: -55px;
+  width: 133px;
+  height: 120px;
+  background-image: url(./../../../assets/images/quotation-marks.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: -1;
+}

@@ -6,13 +6,13 @@ import img from './../../../assets/images/png/hero-background-image.png';
 function Hero() {
   return (
     <section className={styles.hero}>
-      <div className={styles.wrapper}>
+      <div className="wrapper">
         <div className={styles.Content}>
           <div className={styles.infoContent}>
-            <h2 className={styles.title}>
+            <h2 className="title">
               Get the inspiration of interior design here
             </h2>
-            <p className={styles.description}>
+            <p className="description">
               architecture not only about engineering, it even lands to art and
               aesthetics. With us, you will get a residentical design with an
               extraordinary touch of art.

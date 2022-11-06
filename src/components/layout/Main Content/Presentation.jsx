@@ -6,9 +6,9 @@ import exampleImage from './../../../assets/images/png/example-image.png';
 function Presentation() {
   return (
     <section className={styles.presentation}>
-      <div className={styles.wrapper}>
-        <h2 className={styles.title}>How it works</h2>
-        <p className={styles.description}>
+      <div className="wrapper">
+        <h2 className="title">How it works</h2>
+        <p className="description">
           Spice up your space even simpler than you think
         </p>
         <div className={styles.video}>
@@ -20,7 +20,7 @@ function Presentation() {
               </p>
               <div className={styles.videoContainer}>
                 <input type="button" id="playVideo" className={styles.button} />
-                <label className={styles.buttonName} for="playVideo">
+                <label className={styles.buttonName} htmlFor="playVideo">
                   S E E V I D E O
                 </label>
               </div>

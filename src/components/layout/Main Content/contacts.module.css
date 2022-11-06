@@ -1,0 +1,77 @@
+a {
+  margin-left: auto;
+}
+
+.contacts {
+  display: flex;
+}
+
+.header {
+  max-width: 398px;
+  margin-right: 104px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.description {
+  position: relative;
+  text-align: left;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #486958;
+}
+
+.description::before,
+.description::after {
+  position: absolute;
+  content: '';
+  width: 135px;
+  height: 5px;
+  left: 0;
+  background-color: #58a9a5;
+}
+
+.description::before {
+  top: 110px;
+}
+
+.description::after {
+  top: 125px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 54px;
+  border: 1px solid #486958;
+}
+
+.nameField,
+.emailField,
+.question {
+  margin-bottom: 32px;
+  padding: 25px;
+  min-width: 940px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #486958;
+  border: none;
+  border-bottom: 1px solid #486958;
+  outline: none;
+}
+
+.question {
+  padding: 0;
+  padding-left: 25px;
+  margin: 0;
+  border: none;
+}
+
+.emailField {
+  margin-bottom: 37px;
+}
